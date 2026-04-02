@@ -30,11 +30,11 @@ Installation
 Clone the Repository
 bash
 
-# Clone the repository to your local machine
+## Clone the repository to your local machine
 
 git clone <https://github.com/subhadeep-sengupta/rustserver.git>
 
-# Navigate into the project directory
+## Navigate into the project directory
 
 cd multithreaded-web-server
 
@@ -50,11 +50,11 @@ cargo build --release
 Running the Server
 bash
 
-# Run the development build
+### Run the development build
 
 cargo run
 
-# Or run the optimized release build
+### Or run the optimized release build
 
 cargo run --release
 The server will start and listen on 127.0.0.1:7878 (localhost on port 7878).
@@ -64,13 +64,13 @@ Once running, you can test it in another terminal:
 
 bash
 
-# Test with curl
+### Test with curl
 
 curl <http://127.0.0.1:7878/>
 
-# Or open in your browser
+### Or open in your browser
 
-# Navigate to: <http://localhost:7878/>
+### Navigate to: <http://localhost:7878/>
 
 Expected responses:
 
